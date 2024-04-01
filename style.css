@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;   
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+}
+.king{
+    background-color: white;
+    width:50vh;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top:25vh;
+    border-radius: 1rem;
+    padding:2rem;
+    gap:1rem;
+}
+.img img{
+    width:25vh;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.name{
+    font-size: 1.2rem;
+    text-align: center;
+    padding-bottom:1rem ;
+}
+.msg{
+    padding-bottom:1rem ;
+    font-size: 1.5rem;
+}
+.buttons button{
+    width: 100px;
+    height: 40px;
+    /* padding:1rem; */
+    font-size: 1.4rem;
+    margin-left: 1rem;
+}
+.buttons{
+    padding-bottom: 1rem;
+}
