@@ -27,7 +27,7 @@ body{
     width:25vh;
     border-radius: 1rem;
     padding-bottom: 1rem;
-    text-align: center;
+    /* background-image: url(); */
 }
 .header{
     text-align: center;
